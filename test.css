@@ -1,4 +1,24 @@
-.red{color:red;}
-.large{font-size:50px;}
-#col{display: flex;
-flex-direction: column;}
+.red{
+	color:red;
+}
+
+#blue{
+	color:blue;
+}
+
+.large{
+	font-size: 50px;
+}
+
+#col{
+	display:flex;
+	flex-direction: column;
+}
+html, body {
+    margin: 0;          
+    padding: 0;
+    height: 100%;       
+}
+body {
+    background: linear-gradient(to bottom, seagreen, lightblue);
+}
